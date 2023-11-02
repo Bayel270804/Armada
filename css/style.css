@@ -1,0 +1,778 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.header_top_block {
+    background-color: #65256F;
+    padding: 11px 0;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.header_top_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_right_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top_right_info p {
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+.top_right_info a {
+    text-decoration: none;
+    color: #FFB700;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+
+}
+
+.top_left_info {
+    color: #FFB700;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.bg_fone {
+    height: 90vh;
+    position: relative;
+
+}
+
+.black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.city {
+    width: 100%;
+    height: 100%;
+
+}
+
+.header_navigation {
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+
+
+.menu {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 90px;
+    width: 95%;
+
+
+}
+
+li a {
+    color: #2A2828;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 0 12px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.line {
+    width: 100%;
+    height: 74px;
+}
+
+
+nav button {
+
+    background-color: #65256F;
+    width: 290px;
+    border-radius: 3%;
+    height: 50px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a {
+    position: relative;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #FFB700;
+    top: 30px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+.ad_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+
+}
+
+.icons_section {
+    display: flex;
+    flex-direction: column;
+
+
+
+    gap: 38px;
+
+
+
+
+}
+
+
+
+.advertis_section {
+
+
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advertis_section img {
+    width: 40px;
+    height: 5px;
+}
+
+.advertis_section h2 {
+    color: #FFf;
+    font-family: 'Gilroy';
+    font-size: 44px;
+    font-weight: 600;
+    width: 65%;
+
+
+}
+
+.advertis_section p {
+    color: #FFf;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 400;
+    width: 55%;
+
+}
+
+.advertis_section button {
+    background-color: #FFC957;
+    width: 210px;
+
+    height: 40px;
+
+
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.title_service {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 62px 0 0 0;
+    position: relative;
+}
+
+.title_service::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_service::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.Ourservices {
+    background-color: #FFf;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    width: 243px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 45px;
+    margin: 70px 0;
+
+
+}
+
+.service_icon {
+    width: 184px;
+    height: 124px;
+    margin: 0 20px;
+
+}
+
+.Ourservices h4 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.Ourservices p {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5E5E5E;
+
+}
+
+.Ourservices a {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Ourservices_section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title_work {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 62px 0 0 0;
+    position: relative;
+}
+
+.title_work::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_work::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.work_card {
+    width: 320px;
+    height: 240px;
+    position: relative;
+
+
+
+
+
+
+
+}
+
+.service_black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.icon_work {
+    width: 320px;
+    height: 240px;
+}
+
+.work_card h2 {
+    position: absolute;
+    bottom: 18%;
+    left: 7%;
+    font-family: 'Montserrat';
+    color: #FFf;
+    font-size: 24px;
+    font-weight: 700;
+
+
+
+
+}
+
+.work_section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+    gap: 54px;
+
+
+
+
+}
+
+.btn_Allworks {
+    text-align: center;
+    font-family: 'Gilroy';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #FFf;
+    background-color: #65256F;
+    width: 320px;
+    height: 50px;
+    margin: 15px 0;
+    position: relative;
+    left: 37.5%;
+    top: 30px;
+
+}
+
+
+.title_Production {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 62px 0 0 0;
+    position: relative;
+}
+
+.title_Production::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_Production::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.Production_card {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    width: 320px;
+    height: 240px;
+    margin-top: 40px;
+}
+
+.pro_icon {
+    width: 370px;
+    height: 260px;
+}
+
+.title_Ourprice {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_Ourprice::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 63%;
+    width: 37%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_Ourprice::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.icon_ourprice {
+    width: 250px;
+    height: 410px;
+}
+
+.Ourprice_section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 23px;
+
+}
+
+.Ourprice_card {
+    width: 250px;
+    height: 470px;
+    /* box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); */
+
+
+}
+
+.Ourprice_card p {
+    font-family: Gilroy;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+
+    color: #5A5858;
+
+}
+
+.Ourprice_card h4 {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 600;
+    color: #4C1F8C;
+    margin-top: 5px;
+
+
+
+}
+
+.btn_downprice {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFf;
+    background-color: #65256F;
+    width: 320px;
+    height: 50px;
+    margin: 15px 0;
+    position: relative;
+    left: 37.5%;
+    top: 20px;
+
+
+}
+
+.title_ourclients {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_ourclients::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_ourclients::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 36%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.ourclients_card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.title_ourteam {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_ourteam::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_ourteam::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.ourteam_section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.ourteam_card {
+    width: 390px;
+    height: 480px;
+
+}
+
+.ourteam_card img {
+    width: 340px;
+    height: 380px;
+
+}
+
+.ourteam_card h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+
+
+}
+
+
+.ourteam_card p {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    color: #6F6C6C;
+    margin-top: 10px;
+
+
+
+}
+
+.lfr_card {
+    width: 968px;
+    height: 201px;
+    position: relative;
+    left: 12%;
+    margin-top: 60px;
+
+
+
+}
+
+.lfr_card h2 {
+    font-family: 'Gilroy';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #343434;
+
+
+}
+
+.lfr_card p {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    color: #585858;
+    text-align: center;
+
+
+}
+
+.lfr_btn {
+    width: 938px;
+    height: 80px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+
+.lfr_btn input {
+    background-color: #ECE8E8;
+    width: 315px;
+    height: 47px;
+    padding-left: 15px;
+    margin: 10px;
+
+}
+
+.lfr_btn button {
+    background-color: #65256F;
+    width: 226px;
+    height: 47px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #3A3A3A;
+    width: 100%;
+    height: 325px;
+    margin-top: 100px;
+}
+
+
+.footer_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: -100px;
+}
+
+.footer_col {
+    flex: 1 0 25%;
+    line-height: 25px;
+    height: 200px;
+
+}
+
+.footer_col h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+
+
+}
+
+.footer_col li {
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 600;
+    color: #BCBBBB;
+
+
+
+}
+
+.footer_col p {
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 600;
+    color: #BCBBBB;
+
+
+
+}

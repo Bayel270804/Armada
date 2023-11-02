@@ -1,0 +1,578 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.header_top_block {
+    background-color: #65256F;
+    padding: 11px 0;
+
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.header_top_block .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_right_info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top_right_info p {
+    color: #fff;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+.top_right_info a {
+    text-decoration: none;
+    color: #FFB700;
+    font-size: 16px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+
+}
+
+.top_left_info {
+    color: #FFB700;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.bg_fone {
+    height: 90vh;
+    position: relative;
+
+}
+
+.black_fone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.city {
+    width: 100%;
+    height: 100%;
+
+}
+
+.header_navigation {
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.menu {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 90px;
+    width: 95%;
+
+
+}
+
+li a {
+    color: #2A2828;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 0 12px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.line {
+    width: 100%;
+    height: 74px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+
+}
+
+nav button {
+
+    background-color: #65256F;
+    width: 290px;
+    border-radius: 3%;
+
+    height: 50px;
+    margin-left: 17px;
+
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+a {
+    position: relative;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #FFB700;
+    top: 30px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+
+.icon_fone {
+    margin-top: 60px;
+    width: 100%;
+
+}
+
+.title_Aboutcompany {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_Aboutcompany::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 65%;
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_Aboutcompany::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.p_aboutcompany {
+    margin-top: 30px;
+}
+
+.p_aboutcompany p {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #4C4C54;
+
+}
+
+.title_What_are_we_doing {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_What_are_we_doing::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 1px;
+    width: 28%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_What_are_we_doing::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+
+    width: 29%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.work_card {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 60px;
+    width: 100%;
+
+}
+
+.img_frame {
+    flex: 1 0 25%;
+}
+
+.img_frame h4 {
+    font-family: 'Gilroy';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    width: 155px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.ourhistory {
+    margin-top: 60px;
+    height: 445px;
+    width: 100%;
+}
+
+.bg_fone {
+    position: relative;
+    height: 100vh;
+}
+
+.black_fone {
+    position: absolute;
+    top: 10.5%;
+    left: 0;
+    width: 100%;
+    height: 78vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.ourhistory_text {
+    text-align: center;
+    margin: 60px;
+}
+
+.ourhistory_text h2 {
+    font-family: 'Gilroy';
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.content_box {
+    flex: 1 0 16%;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.content_text {
+    width: 169px;
+    text-align: center;
+    height: 90px;
+    margin-top: 25px;
+
+}
+
+.content_text p {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+
+}
+
+.bottom_icon {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.left_icon {
+    position: absolute;
+    left: 0%;
+    top: 31%;
+    margin-left: -25px;
+    transform: rotate(180deg);
+
+
+}
+
+.right_icon {
+    position: absolute;
+    right: 0%;
+    top: 31%;
+    margin-right: -25px;
+
+}
+
+.title_Ouradvantages {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_Ouradvantages::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 1px;
+    width: 29%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_Ouradvantages::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 29%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.Ouradvantages_card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.Ouradvantages_icons {
+    flex: 1 0 25%;
+
+}
+
+.Ouradvantages_icons h4 {
+    font-family: 'Gilroy';
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.title_ourclient {
+    text-align: center;
+    color: #000000;
+    font-family: 'Gilroy';
+    font-size: 48px;
+    font-weight: 400;
+    margin: 72px 0 0 0;
+    position: relative;
+}
+
+.title_ourclient::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 1px;
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.title_ourclient::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    right: 1px;
+    width: 35%;
+    height: 2px;
+    background-color: #BEBEBE;
+}
+
+.nike_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+
+}
+
+.nike_card_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+.nike_icons {
+    flex: 1 0 15%;
+}
+
+/* footer */
+.lfr_card {
+    width: 968px;
+    height: 201px;
+    position: relative;
+    left: 12%;
+    margin-top: 60px;
+
+
+
+}
+
+.lfr_card h2 {
+    font-family: 'Gilroy';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #343434;
+
+
+}
+
+.lfr_card p {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    color: #585858;
+    text-align: center;
+
+
+}
+
+.lfr_btn {
+    width: 948px;
+    height: 80px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+
+}
+
+.lfr_btn input {
+    background-color: #ECE8E8;
+    width: 315px;
+    height: 47px;
+    padding-left: 15px;
+    margin: 10px;
+
+}
+
+.lfr_btn button {
+    background-color: #65256F;
+    width: 226px;
+    height: 47px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #3A3A3A;
+    width: 100%;
+    height: 325px;
+    margin-top: 100px;
+}
+
+
+.footer_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: -100px;
+}
+
+.footer_col {
+    flex: 1 0 25%;
+    line-height: 25px;
+    height: 200px;
+
+}
+
+.footer_col h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+
+
+}
+
+.footer_col li {
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 600;
+    color: #BCBBBB;
+
+
+
+}
+
+.footer_col p {
+    font-family: 'Gilroy';
+    font-size: 12px;
+    font-weight: 600;
+    color: #BCBBBB;
+
+
+
+}
